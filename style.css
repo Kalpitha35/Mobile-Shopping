@@ -1,0 +1,774 @@
+*{
+    margin: 0px;
+    padding : 0px;
+    box-sizing: border-box;
+    /* border: 1px solid red !important ; */
+    /* font-family: "Wittgenstein", serif */
+}
+.main-container{
+    width: 100%;
+    /* background-color: blueviolet; */
+    height: 100px;
+    /* overflow: hidden; */
+}
+.card:hover{
+    box-shadow: rgba(0,0,0,0.4) 0px 2px 4px, rgba(0,0,0,0.3) 0px 7px 13px -3px, rgba(0,0,0,0.2) 0px -3px 0px inset;
+}
+.nav-icons{
+    margin-left: 150px;
+}
+.navbar-header{
+    position: fixed;
+    width: 100%;
+    z-index:100;
+}
+
+.menu-link{
+    color: gray;
+}
+.menu-link:hover{
+    color: black;
+    font-weight: 700;
+}
+.home-div{
+    background-color: rgb(56, 56, 56);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.home-banner{
+    height: 500px;
+    width: 500px;
+    margin-top: 100px;
+     margin-left: 50px ;
+}
+.home-image{
+    height:500px ;
+    margin-left: -100px;
+}
+.iphone-img{
+    height:500px ;
+}
+.home-head{
+    color: white;
+    font-size: 70px;
+    
+}
+.home-para{
+    color: white;
+}
+.home-btn{
+    background-color: rgb(56, 56, 56);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+}
+.home-btn:hover{
+    transform: scale(1.1);
+
+}
+.pro{
+    color:white ;
+
+
+}
+
+
+.Mac-book{
+    background-color: rgb(232, 228, 228);
+    width: 618px;
+    display: flex;
+    flex-direction: row;
+    height: 572px;
+    padding-right: 30px;
+    
+
+}
+.Macbook-img{
+    height: 350px;
+    margin-top: 60px;
+    margin-left: 245px;
+    width: 200px ;
+}
+.mac-head{
+    color: black;
+    font-size:50px ;
+    font-weight: 300;
+}
+.mac-para{
+    font-size:15px ;
+    color: gray;
+
+}
+.mac-banner{
+    height: 500px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 80px ;
+}
+.mac-btn{
+    background-color: rgb(232, 228, 228);
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+}
+.mac-btn:hover{
+    transform: scale(1.1);
+}
+.playstation{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-left: -12px;
+    /* background-color: blueviolet; */
+    width: 600px;
+    margin-right: 0px;
+}
+.play-img{
+    width: 300px;
+    height: 300px;
+}
+.play-para{
+    /* background-color: blue; */
+    width: 500px;
+    height: 150px;
+    margin-top: 70px;
+}
+.ear-pods{
+    display: flex;
+    flex-direction: row;
+
+}
+.ear-pod-head{
+    /* background-color: blueviolet; */
+    width: 500px;
+    margin-top: 70px ;
+    margin-left: 15px;
+}
+.ear-pods{
+    /* background-color: brown; */
+    width: 300px;
+}
+.square-banner{
+    margin-left: 115px;
+}
+.browse{
+    background-color: rgb(252, 248, 248);
+    height: 250px;
+}
+.browse-h1{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.browse-h5{
+    margin-right: 50px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.browse-imgs{
+    margin: 10px 40px;
+}
+.br-img{
+    background-color: rgb(232, 228, 228);
+    width: 170px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px 60px;
+    font-size: 15px;
+}
+.icon-image{
+    width: 50px;
+    height: 50px;
+}
+.browse-link{
+    text-decoration: none;
+    color: black;
+}
+.card-heads{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.heads{
+    font-size: 10px;
+    color: gray;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.heads:hover{
+    text-decoration: underline;
+    color: black;
+}
+.head-link{
+    text-decoration: none;
+}
+.head1{
+    color: black;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.cards2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.phn-card{
+    width: 15rem;
+}
+.phn-img{
+    height: 130px;
+    width: 130px;
+    margin-top: 40px;
+}
+.card-title{
+    font-size: 15px;
+    text-align: center;
+}
+.card-text{
+    font-size: 15px;
+    text-align: center;
+
+}
+.buy-btn{
+    width: 12rem ;
+}
+.big-img{
+    height: 200px;
+    width: 150px;
+    margin: 40px 15px;
+
+}
+.big-card{
+    border: none; 
+    background-color: white;
+    width: 19rem; 
+    height: 25rem;
+}
+.big-cards{
+    margin-left: 20px;
+    border-radius: 0px;
+}
+.card4{
+    color: white;
+}
+.buy-button{
+    border: 1px solid white;
+    background-color: rgb(52, 51, 51);
+    width: 12rem ;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 40px;
+
+}
+.buy-button:hover{
+    transform: scale(1.1);
+}
+.buy-btn:hover{
+    transform: scale(1.1);
+
+}
+.btn1{
+    background-color: white;
+    border: 1px solid black;
+
+}
+.btn2{
+    background-color: rgb(232, 228, 228);
+    border: 1px solid black;
+
+}
+.btn3{
+    background-color:  rgb(210, 208, 208);
+    border: 1px solid black;
+
+}
+.discount{
+    margin: 40px 60px ;
+}
+.wishlist{
+   margin-left: 200px;
+   margin-top: 20px;
+   color: gray;
+}
+.wishlist:hover{
+    color: red;
+}
+.summer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(52, 51, 51);
+    color: white;
+    margin-top: 70px;
+}
+.summer-head{
+    text-align: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 120px;
+    /* background-color: blueviolet; */
+    
+}
+.summer2{
+    margin-left: 210px;
+    /* background-color: blue; */
+}
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.dept-footer{
+    margin-top: 80px;
+}
+.icons-media{
+    display: flex;
+    justify-content: space-around;
+    background-color:black;
+    color: white;
+    width: 200px;
+    margin-left: 50px;
+}
+.main-icons{
+    background-color:black;
+    margin-bottom: 40px;
+    height: 100px;
+}
+@media (max-width : 1200px) and (min-width : 992px){
+   .main-container{
+   } 
+.home-div{
+    /* width: 100%; */
+}
+.summer2{
+    margin-left: 100px;
+}
+.home-image{
+    margin-left: 70px;
+ 
+}
+.Macbook-img{
+    margin-left: 20px;
+}
+.Mac-book{
+    width: 565px;
+}
+.big-cards{
+    /* margin-left: 0px; */
+}
+.big-card{
+    width: 17rem;
+}
+}
+@media (max-width : 992px) and (min-width : 768px){
+
+.home-div{
+    /* width: 850px; */
+}
+.wishlist{
+    margin-left: 20px;
+}
+.summer-head{
+    margin-left: -50px;
+}
+.summer2{
+    margin-left: -60px;
+}
+.home-image{
+    /* background-color: aqua; */
+    width: 350px;
+    margin-left: 145px;
+}
+.Macbook-img{
+    margin-left: 100px;
+}
+.Mac-book{
+    width: 725px;
+    margin-top: 600px;
+    margin-left: -370px;
+}
+.playstation{
+    margin-left: 100px;
+}
+.square-banner{
+    margin-top: -300px;
+    margin-left: 400px;
+}
+.br-img{
+    width: 10px;
+    height: 100px;
+}
+.icon-image{
+    width: 25px;
+    height: 25px;
+}
+.big-card{
+    width: 14rem;
+}
+.big-img{
+    width: 8rem;
+    margin-left: 0px;
+}
+
+.buy-button{
+    width: 8rem ;
+    margin-left: 5px;
+
+}
+
+
+
+}
+@media (max-width : 768px) and (min-width : 576px){
+    .home-div{
+        width: 100%;
+    }
+    .browse{
+        height: 100rem;
+        
+    }
+    .browse-imgs{
+        flex-direction: column;
+        justify-content: space-around;
+     }
+     .br-img{
+        padding: 20px 80px; 
+        margin: 20px 0px;  
+        margin-left: 150px;
+        width: 270px;
+        height: 200px;
+     }
+     .icon-image{
+        width: 100px;
+        height: 100px;
+     }
+     .summer1{
+        margin-left: -350px;
+     }
+    .summer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .summer2{
+        margin-left: 390px;
+    }
+    .summer-head{
+        margin-left: -60px;
+    }
+    .card-heads{
+        margin-left: 100px;
+    }
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .phn-card{
+        margin: 20px 0px;
+
+    }
+    .big-cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .big-card{
+        margin-top: 30px;
+    }
+    .home-image{
+        margin-left: -110px;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-icons{
+        padding-left: 150px;
+        padding-top: 30px;
+    }
+}
+@media (max-width : 576px) and (min-width : 400px){
+    
+    .home-div{
+        width: 100%;
+        flex-direction: column-reverse;
+        height: 750px;
+    }
+    .iphone-img{
+        width: 300px;
+        height: 400px;
+        margin-top: 80px;
+        margin-left: 150px;
+    }
+    .home-banner{
+        width: 350px;
+        margin-top: 30px;
+    }
+    .square-banner{
+        margin-left: 0px;
+    }
+    .home-head{
+        font-size: 50px;
+    }
+    .browse{
+        height: 100rem;
+        
+    }
+    .browse-imgs{
+        flex-direction: column;
+        justify-content: space-around;
+     }
+     .br-img{
+        padding: 20px 80px; 
+        margin: 20px 0px;  
+        margin-left: 100px;
+        width: 270px;
+        height: 200px;
+     }
+     .icon-image{
+        width: 100px;
+        height: 100px;
+     }
+     .summer1{
+        margin-left: -150px;
+     }
+    .summer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .summer2{
+        /* margin-left: 230px; */
+    }
+    .summer-head{
+        margin-left: -60px;
+    }
+    .card-heads{
+        margin-left: 100px;
+    }
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .phn-card{
+        margin: 20px 0px;
+
+    }
+    .big-cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .big-card{
+        margin-top: 30px;
+    }
+    .home-image{
+        margin-left: -110px;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-icons{
+        padding-left: 100px;
+        padding-top: 30px;
+    }
+    .Macbook-img{
+        margin-left: 30px;
+    }
+    .playstation{
+        flex-direction: column;
+        /* background-color: blue; */
+        width: 400px;
+        margin-left: 30px;
+    }
+    .play-para{
+        margin-left: 40px;
+        font-size: 17px;
+        width: 300px;
+        /* background-color: blue; */
+    }
+    .ear-pods{
+        margin-left: 30px;
+    }
+    .ear-pod-head{
+        margin-left: 30px;
+    }
+    .Mac-book{
+        width: 460px;
+ 
+    }
+    .home-image{
+        margin-left: -50px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+@media (max-width : 400px) and (min-width : 300px){
+    .home-div{
+        width: 400px;
+        flex-direction: column-reverse;
+        height: 650px;
+    }
+    .iphone-img{
+        width: 300px;
+        height: 400px;
+        margin-top: 190px;
+        margin-left: 80px;
+    }
+    .home-banner{
+        width: 350px;
+        margin-top: 100px;
+    }
+    .square-banner{
+        margin-left: 20px;
+    }
+    .home-head{
+        font-size: 50px;
+    }
+    .browse{
+        height: 100rem;
+        
+    }
+    .browse-imgs{
+        flex-direction: column;
+        justify-content: space-around;
+     }
+     .br-img{
+        padding: 20px 80px; 
+        margin: 20px 0px;  
+        margin-left: 30px;
+        width: 270px;
+        height: 200px;
+     }
+     .icon-image{
+        width: 100px;
+        height: 100px;
+     }
+     .summer1{
+        margin-left: -150px;
+     }
+    .summer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+    }
+    .summer2{
+         margin-left:150px; 
+    }
+    .summer-head{
+        margin-left: -60px;
+    }
+    .card-heads{
+        margin-left: 80px;
+    }
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .phn-card{
+        margin: 20px 0px;
+
+    }
+    .big-cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .big-card{
+        margin-top: 30px;
+    }
+    .home-image{
+        margin-left: -110px;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+    }
+    .main-icons{
+        padding-left: 50px;
+        padding-top: 30px;
+        width: 400px;
+    }
+   
+    .playstation{
+        flex-direction: column;
+        /* background-color: blue; */
+        width: 300px;
+        margin-left: 40px;
+    }
+    .play-para{
+        margin-left: 0px;
+        font-size: 17px;
+        width: 300px;
+        /* background-color: blue; */
+    }
+    .ear-pods{
+        margin-left: 30px;
+    }
+    .ear-pod-head{
+        margin-left: 30px;
+    }
+    .Mac-book{
+        width: 380px;
+        flex-direction: column;
+        height: 772px;
+ 
+    }
+    .mac-banner{
+        margin-top: 10px;
+    }
+    .Macbook-img{
+        margin-left: 120px;
+    }
+   
+    .home-image{
+        margin-top: -200px;
+        margin-left: 0px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+}
